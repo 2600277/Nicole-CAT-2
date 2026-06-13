@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books on Offer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        
+        h1, h2 {
+            color: red;         /* All headings red */
+            text-align: center;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 95%;
+            margin: 20px auto;
+        }
+        
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        
+        th {
+            color: blue;        /* Only header text is blue */
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        td {
+            color: red;         /* All other text is red */
+            padding: 10px;
+            vertical-align: middle;
+        }
+        
+        .cover {
+            width: 170px;
+            height: 90px;
+            object-fit: cover;
+        }
+        
+        .logo {
+            width: 80px;
+            height: 60px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Books on Offer</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Author Number</th>
+                <th>Book Author</th>
+                <th>Book Title</th>
+                <th>Book ISBN Number</th>
+                <th>Textbook Cover Page</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>11P778</td>
+                <td>Rebecca</td>
+                <td>Web Design</td>
+                <td>18346118</td>
+                <td><img class="cover" src="images\web-design.png" alt="Web Design Banner"></td>
+            </tr>
+            <tr>
+                <td>11P778</td>
+                <td>Rebecca</td>
+                <td>Data Structures</td>
+                <td>BZP00138</td>
+                <td><img class="cover" src="images\data structure.png" alt="Data Structures"></td>
+            </tr>
+            <tr>
+                <td>99484</td>
+                <td>Nathaniel</td>
+                <td>HCI</td>
+                <td>B7710462</td>
+                <td><img class="cover" src="images/hci.jpg" alt="HCI"></td>
+            </tr>
+            <tr>
+                <td>PH32R</td>
+                <td>Paul</td>
+                <td>Data Analytics</td>
+                <td>H1023</td>
+                <td><img class="cover" src="images\data analytics.jpg" alt="Data Analytics"></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h2>Table 2: Application Browsers and Search Engines</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Browser Name</th>
+                <th>Browser Logo</th>
+                <th>Search Engine</th>
+                <th>Search Engine Logo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Google Chrome</td>
+                <td><img class="logo" src="images/chrome-logo.svg" alt="Google Chrome"></td>
+                <td>Google</td>
+                <td><img class="logo" src="images/Google_2015_logo.svg" alt="Google"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mozilla Firefox</td>
+                <td><img class="logo" src="images/firefox-logo.svg" alt="Mozilla Firefox"></td>
+                <td>DuckDuckGo</td>
+                <td><img class="logo" src="images/duckduckgo-logo.svg" alt="DuckDuckGo"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Microsoft Edge</td>
+                <td><img class="logo" src="images/Microsoft_Edge_logo_(2019).svg" alt="Microsoft Edge"></td>
+                <td>Bing</td>
+                <td><img class="logo" src="images\bing logo.png" alt="Bing"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Safari</td>
+                <td><img class="logo" src="images/Safari-Logo.jpg" alt="Safari"></td>
+                <td>Yahoo</td>
+                <td><img class="logo" src="images/Yahoo-Logo.png" alt="Yahoo"></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
